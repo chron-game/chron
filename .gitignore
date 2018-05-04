@@ -33,3 +33,17 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Downloaded Assets
+/Assets/*/
+/Assets/*.meta
+!/Assets/Animations/
+!/Assets/Animations.meta
+!/Assets/Materials/
+!/Assets/Materials.meta
+!/Assets/Scenes/
+!/Assets/Scenes.meta
+!/Assets/Scripts/
+!/Assets/Scripts.meta
+!/Assets/Text Stuff/
+!/Assets/Text Stuff.meta
