@@ -1,4 +1,5 @@
-TextMesh Pro
-Low Poly Pack
-LowPoly Water
-Standard Assets (Enviroment and Camera)
+TextMesh Pro (Unity Technologies)
+Low Poly Pack (Andrey Graphics)
+LowPoly Water (Ebru Dogan)
+Environment (Standard Asset)
+Camera (Standard Asset)
