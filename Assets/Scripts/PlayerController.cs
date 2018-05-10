@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
 		ZMovement = Input.GetAxis ("Vertical") * Time.deltaTime * 3.0f;
 		transform.Rotate (0, lookX, 0); 
 		transform.Translate (MovementSensitivity * XMovement, 0, MovementSensitivity * ZMovement);
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.Space) && grounded == true) {
 			rb.velocity = new Vector3 (0, 10 * jumpHeight * Time.deltaTime, 0);
 			grounded = false;
 		}
