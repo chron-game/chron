@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour {
 	private float ZMovement;
 	public Slider XSensitivitySlider;
 	public bool grounded = true;
+	public Text XSens;
 
 	void Start() {
 		rb = GetComponent<Rigidbody>();
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Update() {
 		XSensitivity = XSensitivitySlider.value;
+		XSens.text = XSensitivity.ToString();
 		lookX = Input.GetAxis ("Mouse X") * XSensitivity;
 		rb.constraints = RigidbodyConstraints.FreezeRotation;
 		XMovement = Input.GetAxis ("Horizontal") * Time.deltaTime * 3.0f;
