@@ -25445,6 +25445,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1412119913}
   pauseOptions: {fileID: 1998505021}
+  rotation: {fileID: 1072077537}
+  movement: {fileID: 65100095}
 --- !u!114 &1979317890
 MonoBehaviour:
   m_ObjectHideFlags: 0
